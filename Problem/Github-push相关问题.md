@@ -8,7 +8,7 @@ remote: Please see https://docs.github.com/en/get-started/getting-started-with-g
 fatal: Authentication failed for 'https://github.com/Kang-404/MyNote.git/'
 ```   
 
-在网上找了很久都没有解决，后来在StackOverFlow上找到原因：
+在网上找了很久都没有解决，后来在[StackOverFlow](https://stackoverflow.com/questions/17659206/git-push-results-in-authentication-failed)上找到原因：
 > If you enabled two-factor authentication in your GitHub account you won't be able to push via HTTPS using your accounts password. Instead you need to generate a personal access token. This can be done in the application settings of your GitHub account. Using this token as your password should allow you to push to your remote repository via HTTPS. Use your username as usual.
 
 原来是从August 13, 2021之后就不支持通过https+密码向Github存取了。有两种解决方式：
