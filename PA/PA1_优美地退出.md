@@ -23,7 +23,7 @@ make: *** [/home/kang/ics2021/nemu/scripts/native.mk:23: run] Error 1
 
 如下图所示：
 
-![](D:\programming\markdown_images\image-20230514152604969.png)
+![](../Picture/image-20230514152604969.png)
 
 通过阅读源代码，理解程序执行流程后发现，程序结束后的返回值由函数 `is_exit_status_bad()` 决定。
 
@@ -62,6 +62,6 @@ static int cmd_q(char *args) {
 
 即可解决这个问题。
 
-![image-20230514154029603](D:\programming\markdown_images\image-20230514154029603.png)
+![image-20230514154029603](../Picture/image-20230514154029603.png)
 
 时间：2023/05/14
